@@ -1,0 +1,13 @@
+services:
+  mediahost-health:
+    build:
+      context: .
+      dockerfile: Docker
+    container_name: mediahost-health
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./queries.yaml:/app/queries.yaml:ro
+    env_file:
+      - .env

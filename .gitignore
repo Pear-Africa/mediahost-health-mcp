@@ -4,3 +4,4 @@ obj/
 .vs/
 appsettings.local.json
 appsettings.Development.json
+.env
