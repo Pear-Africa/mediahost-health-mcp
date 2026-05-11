@@ -1,0 +1,7 @@
+bin/
+obj/
+.env
+appsettings.local.json
+appsettings.Development.json
+.claude/
+history/
