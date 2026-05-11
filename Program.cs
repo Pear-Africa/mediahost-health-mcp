@@ -1,4 +1,4 @@
-using MediahostHealth;
+using MediahostHealthMCP;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediahostHealth", "MediahostHealth.csproj", "{E98CB380-10D4-C1B4-CD70-4E6FC608D272}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediahostHealthMCP", "MediahostHealthMCP.csproj", "{E98CB380-10D4-C1B4-CD70-4E6FC608D272}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

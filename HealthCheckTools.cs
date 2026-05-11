@@ -2,7 +2,7 @@ using System.ComponentModel;
 using System.Text.Json;
 using ModelContextProtocol.Server;
 
-namespace MediahostHealth;
+namespace MediahostHealthMCP;
 
 [McpServerToolType]
 public sealed class HealthCheckTools

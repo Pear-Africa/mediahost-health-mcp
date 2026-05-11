@@ -2,7 +2,7 @@ using System.Text;
 using MailKit.Net.Smtp;
 using MimeKit;
 
-namespace MediahostHealth;
+namespace MediahostHealthMCP;
 
 public sealed class EmailService
 {

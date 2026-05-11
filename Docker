@@ -1,7 +1,7 @@
 # Build stage
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
-COPY MediahostHealth.csproj .
+COPY MediahostHealthMCP.csproj .
 RUN dotnet restore
 COPY . .
 RUN dotnet publish -c Release -o /app --no-restore
@@ -13,4 +13,4 @@ COPY --from=build /app .
 
 # queries.yaml is mounted at runtime — see SETUP.md
 EXPOSE 8000
-ENTRYPOINT ["dotnet", "MediahostHealth.dll"]
+ENTRYPOINT ["dotnet", "MediahostHealthMCP.dll"]

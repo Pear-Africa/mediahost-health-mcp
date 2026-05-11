@@ -1,7 +1,7 @@
 using Dapper;
 using MySqlConnector;
 
-namespace MediahostHealth;
+namespace MediahostHealthMCP;
 
 public sealed class DbService
 {

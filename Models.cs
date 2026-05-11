@@ -1,7 +1,7 @@
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace MediahostHealth;
+namespace MediahostHealthMCP;
 
 // ---------------------------------------------------------------------------
 // YAML models
