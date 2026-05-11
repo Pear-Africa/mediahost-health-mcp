@@ -1,5 +1,6 @@
 services:
   mediahost-health:
+    image: mediahost/mediahost_health_mcp:latest
     build:
       context: .
       dockerfile: Docker
