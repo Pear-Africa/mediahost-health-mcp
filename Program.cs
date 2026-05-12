@@ -23,7 +23,7 @@ builder.Services.AddSingleton<EmailService>();
 // MCP server — scans this assembly for [McpServerToolType] classes
 builder.Services
     .AddMcpServer()
-    .WithHttpTransport()
+    .WithHttpTransport(options => options.Stateless = true)
     .WithToolsFromAssembly();
 
 // ---------------------------------------------------------------------------
